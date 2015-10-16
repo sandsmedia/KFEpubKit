@@ -377,7 +377,7 @@
 
 - (BOOL)isValidNode:(DDXMLElement *)node
 {
-    return node.kind != DDXMLCommentKind;
+    return node.kind == DDXMLElementKind;
 }
 
 
